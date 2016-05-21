@@ -1,8 +1,9 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.applet.*;
 
-public class test1 {
+public class test1 extends Applet {
 	public static void main(String[] args) {
 		
 	}
