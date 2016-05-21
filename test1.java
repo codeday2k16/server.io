@@ -8,7 +8,7 @@ public class test1 {
 	}
 	
 	public static void post() throws FileNotFoundException {
-		File f = new File("hello.txt");
+		File f = new File("host.txt");
 		PrintWriter out = new PrintWriter(f);
 		out.print("Data in text file.");
 		out.close();
