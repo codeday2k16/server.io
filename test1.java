@@ -1,8 +1,17 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 
 public class test1 {
 	public static void main(String[] args) {
-		String yo = "Data to be stored in a text file";
-		System.out.println("Store the text bitch.");
+		
+	}
+	
+	public static void post() throws FileNotFoundException {
+		File f = new File("hello.txt");
+		PrintWriter out = new PrintWriter(f);
+		out.print("Data in text file.");
+		out.close();
 	}
 
 }
